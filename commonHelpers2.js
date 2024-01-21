@@ -1,0 +1,2 @@
+import"./assets/styles-69dae5ec.js";const e=document.querySelector(".feedback-form"),a="feedback-form-state";e.addEventListener("input",l=>{let t={email:e.elements.email.value.trim(),message:e.elements.message.value.trim()};localStorage.setItem(a,JSON.stringify(t))});e.addEventListener("submit",l=>{l.preventDefault();let t=localStorage.getItem(a);console.log(JSON.parse(t)),localStorage.removeItem(a),e.reset()});
+//# sourceMappingURL=commonHelpers2.js.map
